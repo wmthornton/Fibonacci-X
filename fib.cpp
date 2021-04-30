@@ -88,9 +88,6 @@ int main() {
             cout << "Enter the number of terms: ";
             cin >> n;
             cout << "\n";
-        default:
-            cout << BOLD(FRED("Invalid Entry. Dropping to shell prompt.")) << endl;
-            return 0;
     }
 
     // Prevent smartasses from overloading the memory buffers of the system by typing in large numbers of calculations.
